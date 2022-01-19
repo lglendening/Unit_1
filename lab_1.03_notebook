@@ -1,0 +1,16 @@
+1. What happens? an error is showed  
+
+2. How would you make the program print out "cats are really cool" instead?
+
+Instead of:
+  animal = "dogs"
+    print(animal + " are really cool.")
+
+I would print:
+print("cats" + "are really cool")
+
+-----------------------------------------------------------------------------------------------
+
+1. What output does this produce? It produces an error.
+    
+2. Why does this happen?	 This happens because in the print the word dogs isnt in quotes that would make it a string.

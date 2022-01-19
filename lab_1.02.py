@@ -9,7 +9,7 @@ a   5 + 2 * 2                   9                              no  solved the ma
 b   2/3                     0.6666666666666666                  no
 c   2.0 * 1.5               3.0                                  no
 d   (2 + 3) * 10            50.0                                  no
-e   5.0 // 2                2.0                                   no
+e   5.0 // 2                2.0                                   yes
 f   5.0 % 2                 1.0                                   no
 
 Section 2
@@ -48,8 +48,8 @@ k   'abc' * 2                   string                      'abcabc'            
 l   '1'*2 + '2' * 3             integer                     11222                               '11222'
 m   1 * 2 + '3' * 2             string                      '1133'                              error
 n   'A' ** 2                    string                      'AA'                                error
-o   'bc' % 2                    
-p   'bc' / 2
+o   'bc' % 2                    string                      'bc'                                error
+p   'bc' / 2                    string                      'bc'                                error
 
 Now go to the IDE
 Use the interpreter to evaluate the expressions, write down results in the "Interpreter Result" column.
